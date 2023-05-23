@@ -1,0 +1,32 @@
+[
+    {
+    "id": 0,
+    "tipo": "blue",
+    "compra": "481",
+    "venta": "486"
+    },
+    {
+    "id": 1,
+    "tipo": "oficial",
+    "compra": "233.47",
+    "venta": "242.32"
+    },
+    {
+    "id": 2,
+    "tipo": "bolsa",
+    "compra": "463.38",
+    "venta": "464.14"
+    },
+    {
+    "id": 3,
+    "tipo": "liqui",
+    "compra": "476.76",
+    "venta": "479.88"
+    },
+    {
+    "id": 4,
+    "tipo": "cripto",
+    "compra": "466.00",
+    "venta": "475.00"
+    }
+]
