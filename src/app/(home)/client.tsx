@@ -8,7 +8,7 @@ export default function HomeClient({cotizaciones}: {cotizaciones: Cotizacion[]})
   const [amount, setAmount] = useState(0);
 
   return (
-    <main className="flex h-full gap-4">
+    <main className="grid h-full gap-4 md:flex">
       <section className="flex-1">
         <Form
           value={amount}
