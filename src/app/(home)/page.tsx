@@ -1,12 +1,8 @@
 import HomeClient from "./client";
 
 export default async function Home() {
-  const data = await fetch("https://api-dolar-argentina-nu.vercel.app/dolar", {
-    headers: {
-      "Cache-Control": "no-cache",
-      "Pragma": "no-cache",
-    },
-  }).then(
+  const data = await fetch("https://api-dolar-argentina-nu.vercel.app/dolar",{next: {tags: ["matches"]}},
+  ).then(
     (res) =>
       res.json() as Promise<
         { id: number; tipo: string; compra: string; venta: string }[]
