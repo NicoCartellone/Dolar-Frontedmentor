@@ -1,7 +1,8 @@
 import HomeClient from "./client";
 
 export default async function Home() {
-  const data = await fetch("https://api-dolar-argentina-nu.vercel.app/dolar",{next: {tags: ["matches"]}},
+  const data = await fetch("https://api-dolar-argentina-nu.vercel.app/dolar",
+    {cache: "no-cache"}
   ).then(
     (res) =>
       res.json() as Promise<
